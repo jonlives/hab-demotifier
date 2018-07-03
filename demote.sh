@@ -1,0 +1,1 @@
+cat refreshed_packages | while read -r ident; do echo "hab pkg demote $ident stable"; done
